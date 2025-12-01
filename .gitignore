@@ -1,0 +1,4 @@
+*.pkl
+Q2/processed_data/X_test_processed.csv
+Q2/processed_data/X_train_processed.csv
+Q2/processed_data/y_train.csv

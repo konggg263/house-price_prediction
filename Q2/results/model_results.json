@@ -1,0 +1,66 @@
+{
+  "best_method": "Quantile Regression",
+  "model_type": "quantile",
+  "cv_results": {
+    "mean_width": 636983.541052131,
+    "std_width": 1125.6842925311307,
+    "mean_coverage": 0.90038,
+    "std_coverage": 0.00033481338085565674,
+    "fold_widths": [
+      636023.7941288085,
+      635639.1451844058,
+      638454.3071559741,
+      636659.6553134591,
+      638140.803478007
+    ],
+    "fold_coverages": [
+      0.900825,
+      0.900675,
+      0.8999,
+      0.900325,
+      0.900175
+    ]
+  },
+  "comparison_results": {
+    "Method": {
+      "0": "Quantile Regression",
+      "1": "LightGBM Quantile",
+      "2": "Ensemble Uncertainty"
+    },
+    "Mean_Interval_Width": {
+      "0": 636023.794128809,
+      "1": 233080.6126796131,
+      "2": 83163.52093641729
+    },
+    "Coverage_Rate": {
+      "0": 0.900825,
+      "1": 0.862875,
+      "2": 0.405425
+    },
+    "Coverage_Gap": {
+      "0": 0.0008249999999999647,
+      "1": 0.037125000000000075,
+      "2": 0.49457500000000004
+    },
+    "Rank_Width": {
+      "0": 3.0,
+      "1": 2.0,
+      "2": 1.0
+    },
+    "Rank_Coverage": {
+      "0": 1.0,
+      "1": 2.0,
+      "2": 3.0
+    },
+    "Overall_Score": {
+      "0": 4.0,
+      "1": 4.0,
+      "2": 4.0
+    }
+  },
+  "submission_stats": {
+    "mean_interval_width": 642282.8642931998,
+    "min_interval_width": 0.0,
+    "max_interval_width": 12738966.16
+  }
+}
